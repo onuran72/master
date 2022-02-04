@@ -7,6 +7,6 @@ jobs:
     steps:
       - checkout
       - run: yarn
-      - run: yarn test:e2e
-      - run: yarn test:cov
-      - run: yarn format:check
+      - run: 'yarn test:e2e'
+      - run: 'yarn test:cov'
+      - run: 'yarn format:check'
