@@ -35,10 +35,6 @@ jobs:
 
       # run tests!
       - run: yarn test --ignore-engines
-      - run: yarn lint
-      - run: yarn format:check
-      - run: yarn test:cov
-      - run: yarn test:e2e
       - run: echo "ALL GOOD IN THE HOOD"
       - deploy:
           name: Deploy on deploy branch
